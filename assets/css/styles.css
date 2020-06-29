@@ -64,7 +64,7 @@ hr {
     height: 3px;
     background-color: #555555;
     border: 0;
-    margin-bottom: 30px;
+    margin: 30px 0px 30px;
 }
 
 section h3.title {
@@ -78,7 +78,7 @@ section p {
     max-width: 775px;
     line-height: 2;
     padding: 0 20px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
@@ -196,9 +196,9 @@ header nav li {
     }
 }
 
-/* Destinations Sections */
+/* Mission Sections */
 
-.destinations .grid li {
+.mission .grid li {
     height: 350px;
     padding: 20px;
     background-clip: content-box;
@@ -206,71 +206,71 @@ header nav li {
     background-position: center;
 }
 
-.destinations .grid li.small {
+.mission .grid li.small {
     flex-basis: 30%;
 
 }
 
-.destinations .grid li.large {
+.mission .grid li.large {
     flex-basis: 70%;
 }
 
 @media (max-width: 1100px) {
-    .destinations .grid li.small,
-    .destinations .grid li.large {
+    .mission .grid li.small,
+    .mission .grid li.large {
         flex-basis: 50%;
     }
 }
 
 @media (max-width: 800px) {
-    .destinations .grid li.small,
-    .destinations .grid li.large {
+    .mission .grid li.small,
+    .mission .grid li.large {
         flex-basis: 100%;
     }
 }
 
-/* Packages Section */
+/* Panel Section */
 
-.packages .grid li {
+.gridpanel .grid li {
     padding: 50px;
     flex-basis: 50%;
     text-align: center;
 }
 
-.packages .grid li i {
+.gridpanel .grid li i {
     color: #555555;
 }
 
-.packages .grid li h4 {
+.gridpanel .grid li h4 {
     font-size: 30px;
     margin: 25px 0;
 }
 
 @media (max-width: 800px) {
-    .packages .grid li {
+    .gridpanel .grid li {
         flex-basis: 100%;
         padding: 20px;
     }
 }
 
-/* Testimonials Section */
+/* Contributions Section */
 
-.testimonials .contributor {
+.contributions {
     font-size: 22px;
     font-weight: 300;
     line-height: 1.5;
-    margin: 0px 0 0px;
+    margin: 0px;
 }
 
 @media (max-width: 800px) {
-    .testimonials .contributor {
+    .contributions {
         font-size: 18px;
         margin: 15px 0;
     }
 }
 
 @media (max-width) {
-    .testimonials .author {
+    .contributions {
         font-size: 14px;
     }
 }
