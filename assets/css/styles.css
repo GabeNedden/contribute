@@ -35,6 +35,12 @@ a.btn {
     opacity: 1; 
 }
 
+a.light {
+    color: #555555;
+    opacity: 0.9;
+}
+
+
 section {
     display: flex;
     flex-direction: column;
@@ -58,7 +64,7 @@ hr {
     height: 3px;
     background-color: #555555;
     border: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 section h3.title {
@@ -249,15 +255,15 @@ header nav li {
 
 /* Testimonials Section */
 
-.testimonials .quote {
+.testimonials .contributor {
     font-size: 22px;
     font-weight: 300;
     line-height: 1.5;
-    margin: 40px 0 25px;
+    margin: 0px 0 0px;
 }
 
 @media (max-width: 800px) {
-    .testimonials .quote {
+    .testimonials .contributor {
         font-size: 18px;
         margin: 15px 0;
     }
