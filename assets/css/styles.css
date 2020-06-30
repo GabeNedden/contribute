@@ -64,7 +64,7 @@ hr {
     height: 3px;
     background-color: #555555;
     border: 0;
-    margin: 30px 0px 30px;
+    margin: 0px 0px 30px 0px;
 }
 
 section h3.title {
@@ -78,7 +78,7 @@ section p {
     max-width: 775px;
     line-height: 2;
     padding: 0 20px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -260,6 +260,27 @@ header nav li {
     font-weight: 300;
     line-height: 1.5;
     margin: 0px;
+}
+
+.contributions li i {
+    color: #555555;
+}
+
+.contributions li  {
+    text-align: center;
+}
+
+.contributions a.btn {
+    border-radius: 4px;
+    text-transform: none;
+    font-size: 7;
+    font-weight: 500;
+    text-align: center;
+    background-color: #555555;
+    opacity: 1;
+    padding: 15px 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
