@@ -19,6 +19,9 @@ nav {
 a {
     text-decoration: none;
     opacity: 0.75;
+}
+
+a.header {
     color: #fff;
 }
 
