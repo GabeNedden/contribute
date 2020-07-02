@@ -6,7 +6,11 @@ const contributors = [
         github: "https://github.com/GabeNedden"
     },
     {
+        name: "Haley Harrington",
+        github: "https://github.com/haleyharrington"
+    },
+    {
         name: "Tester McGee",
-        github: "https://github.com/GabeNedden"
+        github: "https://github.com"
     }
 ]
