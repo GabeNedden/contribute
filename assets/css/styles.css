@@ -226,9 +226,12 @@ header nav li {
 }
 
 @media (max-width: 800px) {
-    .mission .grid li.small,
+    .mission .grid li.small {
+        flex-basis: 100%;
+    }
     .mission .grid li.large {
         flex-basis: 100%;
+        display: none;
     }
 }
 
