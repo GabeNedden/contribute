@@ -1,5 +1,5 @@
 # Contribute
-# A project based off the very successful https://github.com/firstcontributions/first-contributions
+# A project based off the very successful [firstcontributions](https://github.com/firstcontributions/first-contributions/).
 An easy place for new developers to contribute to a project.
 
 If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
