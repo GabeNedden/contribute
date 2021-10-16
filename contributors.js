@@ -12,5 +12,9 @@ const contributors = [
     {
         name: "Pranshu Jha",
         github: "https://github.com/pranshuj73"
+    },
+    {
+        name: "Mohamed Danis",
+        github: "https://github.com/MohamedDanis"
     }
 ]
