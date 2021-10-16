@@ -41,37 +41,36 @@
     </section>
 
     <section class="gridpanel">
-        <h3 class="title">OK</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritas.</p>
+        <h3 class="title">Here's how to get started in 4 simple steps!</h3>
         <hr>
 
         <ul class="grid">
             <li>
-                <i class="fa fa-id-card fa-4x"></i>
-                <h4>Get your PR...</h4>
-                <p>Sed ut pelit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-            </li>
-            <li>
-                <i class="far fa-thumbs-up fa-4x"></i>
-                <h4>Approved!</h4>
-                <p>Sed ut pelit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-            </li>
-            <li>
                 <i class="fas fa-folder-open fa-4x"></i>
-                <h4>Clone the repo...</h4>
-                <p>Sed ut pelit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                <h4>Fork & Clone the repo...</h4>
+                <p><a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">Fork the repository</a> by clicking on the fork button on top of the repo. Then <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">clone it</a> onto your local machine.</p>
+            </li>
+            <li>
+                <i class="fa fa-id-card fa-4x"></i>
+                <h4>Make the changes...</h4>
+                <p>Make your changes in the code, preferably on a new branch. Next commit those changes and push them!</p>
             </li>
             <li>
                 <i class="fab fa-github-square fa-4x"></i>
-                <h4>and submit to Git!</h4>
-                <p>Sed ut pelit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                <h4>Make a PR...</h4>
+                <p>Now finally it's time to make a <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">Pull Request</a> and wait for it to be merged.</p>
+            </li>
+            <li>
+                <i class="far fa-thumbs-up fa-4x"></i>
+                <h4>and Approved!</h4>
+                <p>Once it is merged you will be able to see your contribution on the main repository. It's time to celebrate your first PR! 🥳</p>
             </li>
         </ul>
     </section>
 
     <section class="contact">
         <h3 class="title">Learn More</h3>
-        <p>Bubble sort baz private long int back door bytes false bin buffer epoch suitably small values. Foo new lib malloc hexadecimal true highjack fork d00dz Dennis Ritchie L0phtCrack bypass terminal sql deadlock kilo case fatal mailbomb stack trace then. Unix data daemon access fail ip system error it's a feature.</p>
+        <p>To Learn more about Open Source projects and how to contribute to them...</p>
         <hr>
         <form>
             <a href="https://github.com/GabeNedden/contribute" target="_blank" class="btn header">Check us out on Github</a>
@@ -79,8 +78,18 @@
     </section>
 
     <footer>
-        <p>June 2020</p>
+        <p class="footer-date"></p>
         <p>Designed by Gabriel Zur Nedden</p>
     </footer>
+
+    <script>
+        const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+        const d = new Date();
+        console.log(monthNames[d.getMonth()] + " " + d.getFullYear());
+        var ele = document.getElementsByClassName('footer-date')[0];
+        console.log(ele)
+        ele.innerHTML = monthNames[d.getMonth()] + " " + d.getFullYear();   
+    </script>
 </body>
 </html>
