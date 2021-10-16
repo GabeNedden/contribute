@@ -8,5 +8,9 @@ const contributors = [
     {
         name: "Haley Harrington",
         github: "https://github.com/haleyharrington"
+    },
+    {
+        name: "Pranshu Jha",
+        github: "https://github.com/pranshuj73"
     }
 ]
