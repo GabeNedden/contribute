@@ -20,6 +20,18 @@ const contributors = [
     {
         name: "Jash Lodhavia",
         github: "https://github.com/jashlodhavia"
+    },
+    {
+        name: "Pururaj Singh Rajawat",
+        github: "https://github.com/pururaj987"
+    },
+    {
+        name: "Sooraj Gk",
+        github: "https://github.com/sooraj-gk"
+    },
+    {
+        name: "Aman Agrawal",
+        github: "https://github.com/aman0408"
     }
 
 ]
