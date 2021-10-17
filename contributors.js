@@ -18,6 +18,10 @@ const contributors = [
         github: "https://github.com/MohamedDanis"
     },
     {
+        name: "Sooraj Gk",
+        github: "https://github.com/sooraj-gk"
+    },
+    {
         name: "Aman Agrawal",
         github: "https://github.com/aman0408"
     }
