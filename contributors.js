@@ -40,6 +40,14 @@ const contributors = [
     {
       name: "Zezou",
       github:"https://github.com/Zezou"
+    },
+    {
+        name: "Shahbaz Alam",
+        github:"https://github.com/Alam9835"
+    },
+    {
+        name: "Matheus Mazoni",
+        github:"https://github.com/MMazoni"
     }
 
 ]
