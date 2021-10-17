@@ -37,6 +37,10 @@ const contributors = [
       name: "Shahbaz Alam",
       github:"https://github.com/Alam9835"
     },
+    {
+      name: "Ayaka Nishimura",
+      github:"https://github.com/ayaka28"
+    },
 	  {
       name: "Suresh MuthuSelvam",
       github:"https://github.com/suresh37"
