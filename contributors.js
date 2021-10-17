@@ -38,6 +38,10 @@ const contributors = [
       github:"https://github.com/Alam9835"
     },
     {
+      name: "Juli Cheng",
+      github:"https://github.com/julicheng"
+    },
+    {
       name: "Ayaka Nishimura",
       github:"https://github.com/ayaka28"
     },
