@@ -40,6 +40,26 @@ const contributors = [
     {
       name: "Juli Cheng",
       github:"https://github.com/julicheng"
+    },
+    {
+      name: "Ayaka Nishimura",
+      github:"https://github.com/ayaka28"
+    },
+	  {
+      name: "Suresh MuthuSelvam",
+      github:"https://github.com/suresh37"
+    },
+    {
+      name: "Zezou",
+      github:"https://github.com/Zezou"
+    },
+    {
+        name: "Shahbaz Alam",
+        github:"https://github.com/Alam9835"
+    },
+    {
+        name: "Matheus Mazoni",
+        github:"https://github.com/MMazoni"
     }
 
 ]
