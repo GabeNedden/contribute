@@ -16,5 +16,9 @@ const contributors = [
     {
         name: "Mohamed Danis",
         github: "https://github.com/MohamedDanis"
+    },
+    {
+        name: "Sooraj Gk",
+        github: "https://github.com/sooraj-gk"
     }
 ]
