@@ -82,5 +82,13 @@ const contributors = [
         name: "Luis Izquierdo",
         github: "https://github.com/leip1493"
     },
-
+    {
+        name: "Deep Shikha",
+        github:"https://github.com/DeepShikhaIN"
+    },
+    {
+        name: "Shivansh Yadav",
+        github: "https://github.com/Shivansh-yadav13"
+    }
+  
 ]
