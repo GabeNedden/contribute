@@ -97,6 +97,10 @@ const contributors = [
     {
         name: "Shivansh Yadav",
         github: "https://github.com/Shivansh-yadav13"
+    },
+    {
+        name: "Sahil Sheth",
+        github: "https://github.com/shlsheth263"
     }
   
 ]
