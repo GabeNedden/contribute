@@ -22,6 +22,10 @@ const contributors = [
         github: "https://github.com/jashlodhavia"
     },
     {
+        name: "Caleb Felix",
+        github: "https://github.com/calebfelix"
+    },
+    {
         name: "Pururaj Singh Rajawat",
         github: "https://github.com/pururaj987"
     },
