@@ -99,8 +99,12 @@ const contributors = [
         github: "https://github.com/Shivansh-yadav13"
     },
     {
+        name: "Shrayansh Tyagi",
+        github: "https://github.com/Shray-glitch"
+    },
+    {
         name: "Sahil Sheth",
         github: "https://github.com/shlsheth263"
     }
-  
+
 ]
