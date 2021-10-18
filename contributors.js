@@ -76,7 +76,11 @@ const contributors = [
     },
     {
         name: "Jasleen Sondhi",
-        github: "https://github.com/jasleen101010"
+        github:"https://github.com/jasleen101010"
+    },
+    {
+        name: "Dayanand M.G",
+        github:"https://github.com/dayanand-g"
     },
     {
         name: "Luis Izquierdo",
