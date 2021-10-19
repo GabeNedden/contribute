@@ -2,6 +2,10 @@
 
 const contributors = [
     {
+        name: "Shreshth Gilhotra",
+        github: "https://github.com/shreshth-12"
+    },
+    {
         name: "Gabriel Zur Nedden",
         github: "https://github.com/GabeNedden"
     },
