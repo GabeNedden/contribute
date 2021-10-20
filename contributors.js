@@ -117,5 +117,9 @@ const contributors = [
     {
       name: "Kike Sanchez",
       github: "https://github.com/KikeSan"
+    },
+    {
+      name: "Davy Sharma",
+      github: "https://github.com/davysharma4/"
     }
 ]
