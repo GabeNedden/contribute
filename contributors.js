@@ -125,7 +125,7 @@ const contributors = [
     {
       name: "Davy Sharma",
       github: "https://github.com/davysharma4/"
-    }    ,
+    },
     {
       name: "Shreshth Gilhotra",
       github: "https://github.com/shreshth-12"
