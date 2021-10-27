@@ -133,6 +133,10 @@ const contributors = [
     {
         name: "Shreya Singh",
         github: "https://github.com/real-phoenix"
+    },
+    {
+        name: "Diamond Rivero",
+        github: "https://github.com/diamant3"
     }
     
 ]
