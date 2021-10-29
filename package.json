@@ -1,0 +1,24 @@
+{
+  "name": "contribute",
+  "version": "1.0.0",
+  "description": "An easy place for new developers to contribute to a project.",
+  "main": "index.html",
+  "type": "module",
+  "dependencies": {
+    "octokit": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabeNedden/contribute.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabeNedden/contribute/issues"
+  },
+  "homepage": "https://github.com/GabeNedden/contribute#readme"
+}

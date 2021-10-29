@@ -15,6 +15,3 @@ visibleList.addEventListener("click", () => {
       }
     }
 });
-
-
-

@@ -141,9 +141,11 @@ const contributors = [
     {
         name: "Advait Khawase",
         github: "https://github.com/advaitkhawase15"
-    }
+    },
     {
         name: "Shrey Nahar A",
         github: "https://github.com/Shrey-Nahar"
     }
 ]
+
+console.log(contributors)
