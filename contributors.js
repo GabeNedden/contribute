@@ -1,6 +1,10 @@
 // Add your name and bio to the list of objects!
 
 const contributors = [{
+        name: "Deepanshu Sharma",
+        github: "https://github.com/deepanshu-sharmaa"
+    },
+    {
         name: "Gabriel Zur Nedden",
         github: "https://github.com/GabeNedden"
     },
