@@ -1,7 +1,6 @@
 // Add your name and bio to the list of objects!
 
-const contributors = [
-    {
+const contributors = [{
         name: "Gabriel Zur Nedden",
         github: "https://github.com/GabeNedden"
     },
@@ -76,15 +75,15 @@ const contributors = [
     },
     {
         name: "Jasleen Sondhi",
-        github:"https://github.com/jasleen101010"
+        github: "https://github.com/jasleen101010"
     },
-	  {
+    {
         name: "Tushar Sharma",
-        github:"https://github.com/tusharsharmain"
+        github: "https://github.com/tusharsharmain"
     },
     {
         name: "Dayanand M.G",
-        github:"https://github.com/dayanand-g"
+        github: "https://github.com/dayanand-g"
     },
     {
         name: "Luis Izquierdo",
@@ -92,7 +91,7 @@ const contributors = [
     },
     {
         name: "Deep Shikha",
-        github:"https://github.com/DeepShikhaIN"
+        github: "https://github.com/DeepShikhaIN"
     },
     {
         name: "Shivansh Yadav",
@@ -115,20 +114,20 @@ const contributors = [
         github: "https://github.com/zestycoder"
     },
     {
-      name: "Kike Sanchez",
-      github: "https://github.com/KikeSan"
+        name: "Kike Sanchez",
+        github: "https://github.com/KikeSan"
     },
     {
-       name: "Anubhav Rajput",
-       github: "https://github.com/anubhav180400"
+        name: "Anubhav Rajput",
+        github: "https://github.com/anubhav180400"
     },
     {
-      name: "Davy Sharma",
-      github: "https://github.com/davysharma4/"
+        name: "Davy Sharma",
+        github: "https://github.com/davysharma4/"
     },
     {
-      name: "Shreshth Gilhotra",
-      github: "https://github.com/shreshth-12"
+        name: "Shreshth Gilhotra",
+        github: "https://github.com/shreshth-12"
     },
     {
         name: "Shreya Singh",
@@ -145,6 +144,10 @@ const contributors = [
     {
         name: "Shrey Nahar A",
         github: "https://github.com/Shrey-Nahar"
+    },
+    {
+        name: "Tchassem Johan",
+        github: "https://github.com/johan237"
     }
 ]
 
