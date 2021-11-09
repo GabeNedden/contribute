@@ -157,6 +157,10 @@ const contributors = [{
         name: "Deepanshu Sharma",
         github: "https://github.com/deepanshu-sharmaa"
     },
+     {
+        name: "AkshayHere",
+        github: "https://github.com/AkshayHere"
+    },
 ]
 
 console.log(contributors)
