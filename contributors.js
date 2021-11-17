@@ -1,6 +1,11 @@
 // Add your name and bio to the list of objects!
 
-const contributors = [{
+const contributors = [
+    {
+        name: "Ranuga Disansa",
+        github: "https://github.com/Programmer-RD-AI"
+    },
+    {
         name: "Gabriel Zur Nedden",
         github: "https://github.com/GabeNedden"
     },
