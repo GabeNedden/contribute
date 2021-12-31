@@ -2,10 +2,6 @@
 
 const contributors = [
     {
-        name: "Ranuga Disansa",
-        github: "https://github.com/Programmer-RD-AI"
-    },
-    {
         name: "Gabriel Zur Nedden",
         github: "https://github.com/GabeNedden"
     },
@@ -169,6 +165,10 @@ const contributors = [
     {
         name: "Ayush0431",
         github: "https://github.com/Ayush0431"
+    },
+    {
+        name: "Ranuga Disansa",
+        github: "https://github.com/Programmer-RD-AI"
     },
     {
         name: "sohamkolambe",
