@@ -177,6 +177,10 @@ const contributors = [
     name: "Edilson Matola",
     github: "https://github.com/edilsonmatola",
   },
+  {
+    name: "Thomas McGuigan",
+    github: "https://github.com/thomasmcg77",
+  },
 ];
 
-console.log(contributors)
+console.log(contributors);
