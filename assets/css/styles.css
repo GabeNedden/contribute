@@ -11,6 +11,7 @@ html {
     color: #555555;
 }
 
+
 ul,
 nav {
     list-style: none;
@@ -34,7 +35,7 @@ a.btn {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    background-color: #555555;
+    background-color: blue;
     opacity: 1; 
 }
 
@@ -62,6 +63,8 @@ section:not(.hero):nth-child(even) {
     justify-content: center;
 }
 
+
+
 hr {
     width: 250px;
     height: 3px;
@@ -69,6 +72,7 @@ hr {
     border: 0;
     margin: 0px 0px 30px 0px;
 }
+
 
 section h3.title {
     text-transform: capitalize;
@@ -244,7 +248,7 @@ header nav li {
 }
 
 .gridpanel .grid li i {
-    color: #555555;
+    color: #20C20E;
 }
 
 .gridpanel .grid li h4 {

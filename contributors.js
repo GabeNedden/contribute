@@ -180,6 +180,10 @@ const contributors = [
   {
     name: "Harshbardhan Singh",
     github: "https://github.com/harsh1x4"
+  },
+  {
+    name: "Shi Heb Din",
+    github: "https://github.com/d3j1x"
   }
 ];
 
