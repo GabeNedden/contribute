@@ -9,6 +9,7 @@
 html {
     font: normal 16px sans-serif;
     color: #555555;
+    overflow-x: hidden;
 }
 
 ul,
@@ -85,51 +86,86 @@ section p {
     text-align: center;
 }
 
-@media (max-width: 800px) {
-    section {
-        padding: 50px 20px;
-    }
-}
-
 /* Header Styles */
 
 header {
-    position: absolute;
+    position: fixed;
+    top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 100px 0;
-    opacity: 1;
+    padding: 35px 100px 1rem;
     z-index: 1;
     color: #fff;
+    background-color: #14141466;
+    box-shadow: .1rem .1rem 1rem #cccccc33;
 }
 
 header h2 {
     font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-header nav {
+header .navbar ul{
     display: flex;
-    margin-right: -15px;
 }
 
-header nav li {
+header .navbar li a{
     margin: 0 15px;
+    color: #fff;
 }
+
+
+#menu-bar{
+    font-size: 2rem;
+    color: aliceblue;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
 
 @media (max-width: 800px) {
-    header {
-        padding: 20px 50px;
-        flex-direction: column;
+    section {
+        padding: 50px 20px;
     }
-
     header h2 {
         margin-bottom: 15px;
     }
+    header{
+        padding: 1rem 1rem;
+    }
 
-    header nav {
-        margin-right: 0;
+    .header .navbar {
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        border-top: 1rem solid #221919a8;
+        padding: 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        background-color: #000000bd;
+        transition: .3s linear;
+    }
+    .header .navbar ul{
+        display: block;    
+        margin: 2rem;
+        text-align: center;
+    }
+    .header .navbar li{
+        margin: 2rem auto;
+    }
+    #menu-bar{
+        display: inline-block;
+        transition: .2s linear;
+    }
+    .fa-times{
+        transform: rotate(180deg);
+    }
+    .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 }
 
@@ -152,6 +188,8 @@ header nav li {
     background-size: cover;
     z-index: -1;
     background-color: #555555;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero h1 {
@@ -207,8 +245,12 @@ header nav li {
     background-clip: content-box;
     background-size: cover;
     background-position: center;
+    cursor: pointer;
 }
-
+.mission .grid li:hover{
+    transform: scale(1.01);
+    transition: .3s linear;
+}
 .mission .grid li.small {
     flex-basis: 30%;
 
@@ -216,6 +258,10 @@ header nav li {
 
 .mission .grid li.large {
     flex-basis: 70%;
+}
+
+.grid-gallery-item{
+    overflow: hidden;
 }
 
 @media (max-width: 1100px) {
@@ -226,6 +272,12 @@ header nav li {
 }
 
 @media (max-width: 800px) {
+
+}
+@media (max-width: 600px) {
+    .mission .grid {
+        display: block;
+    }
     .mission .grid li.small {
         flex-basis: 100%;
     }
@@ -293,12 +345,6 @@ header nav li {
     .contributions {
         font-size: 18px;
         margin: 15px 0;
-    }
-}
-
-@media (max-width) {
-    .contributions {
-        font-size: 14px;
     }
 }
 
