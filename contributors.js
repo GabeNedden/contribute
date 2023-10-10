@@ -180,7 +180,11 @@ const contributors = [
   {
     name: "Harshbardhan Singh",
     github: "https://github.com/harsh1x4"
-  }
+  },
+  {
+    name: "Milos Minic",
+    github: "https://github.com/MilossGIT",
+  },
 ];
 
 console.log(contributors)
